@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* thumbnails.recipepage (dan) */
 td {
     width: 110px;
@@ -122,3 +123,60 @@ td {
     background-position: 50% 50%;
 
 }
+=======
+@import "compass/css3";
+
+@import "compass/css3";
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.main-container{
+    background: url("bkg-2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-wrapper{
+    background-color: darkorange;
+}
+
+.display-3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:77pt;
+    text-align:center;
+}
+
+
+.steps{
+    font-size: 20pt;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#section1 {
+    height: 750px;
+    
+  }
+  
+  #section2, #info {
+    height: 800px;
+    width: 250%;
+    text-align: center;
+    font-size: 24pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  #section3{
+    height: 600px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .material-icons{
+      font-size: 70pt;
+  }
+>>>>>>> master

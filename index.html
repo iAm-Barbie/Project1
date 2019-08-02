@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet/stylesheet.css">
-    <title>Couch to Cook</title>
-  </head>
-  <body>
-    <div>
-        <nav>
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo"><i class="material-icons">local_dining</i>Couch to Cook</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                  <ul id="dropdown2" class="dropdown-content">
-                      <li><a href="#!">Spanish<span class="badge">1</span></a></li>
-                      <li><a href="#!">Italian<span class="new badge">1</span></a></li>
-                      <li><a href="#!">German</a></li>
-                    </ul>
-                    <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">Language<i class="material-icons right">arrow_drop_down</i></a>                  
-            </div>
-          </nav>
 
-          <container>
-            <div class="jumbotron">
-              <h1 id="header" class="display-3">Couch to Cook</h1>
-              <p class="lead">Tell us what you have in your pantry and we will do the rest!
-                <br>
-                Couch to Cook will generate delicious and nutrituous recipes based on your ingredients 
-                with instructions and nutritional information.
-                <br>
-                All you have to do is get off the couch!
-              </p>
-              <ul>
-                <li>
-                  1. Select Your Ingredients
-                </li>
-                <li>
-                  2. Get off the couch
-                </li>
-                <li>
-                  3. GET COOKIN'
-                </li>
-              </ul>
-              <p class="lead">
-                <a class="btn btn-primary btn-lg" href="recipes.html" role="button">Lets Cook!</a>
-              </p>
-            </div>
-          </container>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet/stylesheet.css">
+  <title>Couch to Cook</title>
+</head>
+
+<body>
+      <body class="main-container">
+      <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><i class="material-icons">local_dining</i>Couch to Cook</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="dropdown2" class="dropdown-content">
+              <li><a href="#!">Spanish<span class="badge">1</span></a></li>
+              <li><a href="#!">Italian<span class="new badge">1</span></a></li>
+              <li><a href="#!">German</a></li>
+            </ul>
+            <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">Language<i
+                class="material-icons right">arrow_drop_down</i></a>
+        </div>
+      </nav>
     </div>
 
+      <container>
+        <div class="container">
+        <div class="jumbotron" id="section1">
+          <h1 id="header" class="display-3">Couch to Cook</h1>
+        </div>
+        <div>
+            <div class="row" id="section2">
+                <div class="col s12 m5">
+                  <div class="card-panel teal" id="card1">
+                    <span class="white-text" id="info"> Tell us what you have in your pantry and we will do the rest!
+                      <br>
+                      Couch to Cook generates delicious and nutrituous recipes based on your ingredients with tutorial videos and nutritional information.
+                      <br>
+                      All you have to do is get off the couch! 
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row" id="section3">
 
+            <div class="col s4">
+                <i class="material-icons">kitchen</i>
+              <p>
+                1. Select Ingredients
+              </p>
+            </div>
+            <div class="col s4">
+                <i class="material-icons">transfer_within_a_station</i>
+              <p>
+                2. Get off the Couch
+              </p>
+            </div>
+            <div class="col s4">
+                <i class="material-icons">local_dining</i>
+             <p>
+               3. GET COOKIN'
+             </p>
+            </div>
+
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">arrow_forward</i>LETS COOK!</a>
+      
+          </div>
+              
+        </div>
+      </div>
+      </container>
+    </div>
+    </div>
   </body>
+</body>
+
 </html>
