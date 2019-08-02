@@ -1,0 +1,32 @@
+/***  TO BE MERGED INTO stylesheet.css  ***/
+form {
+  padding-left: 1em;
+}
+
+.form-column {
+  margin-top: 0.75em;
+}
+
+.card-column {
+  margin-top: 2em;
+}
+
+.emoji {
+  max-width: 33%;
+  height: 33%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.faq {
+  margin-top: 5rem;
+}
+
+.question {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.answer {
+  font-style: italic;
+}

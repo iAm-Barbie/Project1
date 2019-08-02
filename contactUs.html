@@ -13,14 +13,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="stylesheet/stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet/contactUs.css" />
     <title>Contact Us</title>
   </head>
 
-  <body>
+  <body class="main-container">
     <div class="container">
       <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Couch to Cook</a>
+          <a href="#" class="brand-logo"
+            ><i class="material-icons">local_dining</i>Couch to Cook</a
+          >
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="recipes.html">Recipes</a></li>
@@ -30,7 +33,7 @@
       </nav>
       <!--FIRST ROW-->
       <div class="row">
-        <form class="col s8">
+        <div class="col s7 form-column">
           <form>
             <div class="row">
               <div class="input-field">
@@ -62,62 +65,130 @@
               <i class="material-icons right">send</i>
             </button>
           </form>
-        </form>
+          <div class="card faq">
+            <div class="card-content">
+              <h4 class="center-align">Frequently Asked Question</h4>
+              <hr />
+              <ul>
+                <li class="question">
+                  The ingredient I want to use isn't listed.
+                </li>
+                <li class="answer">
+                  We plan on adding ingredient search functionality in the near
+                  future.
+                </li>
+                <li class="question">What temperature should my chicken be?</li>
+                <li class="answer">
+                  The safe internal temperature is 165&deg; Farenheit.
+                </li>
+                <li class="question">
+                  What is your source of nuturition information?
+                </li>
+                <li class="answer">
+                  We are using the USDA nutrition database.
+                </li>
+                <li class="question">Are you affiliated with Tasty?</li>
+                <li class="answer">
+                  We are not affiliated with any company right now.
+                </li>
+                <li class="question">
+                  I'm having an issue with my browser, can you help?
+                </li>
+                <li class="answer">
+                  Sorry about that. We don't offer support at this time.
+                </li>
+                <li class="question">Can I use tilapia instead of salmon?</li>
+                <li class="answer">
+                  If you feel that would taste better, please do.
+                </li>
+                <li class="question">Do you have any gluten-free options?</li>
+                <li class="answer">
+                  Tofu, veggies, and rice are all gluent-free. Enjoy!
+                </li>
+                <li class="question">
+                  I have a food allergy, can I still use your app?
+                </li>
+                <li class="answer">
+                  Yes! Just make sure not to include that ingredient.
+                </li>
+                <li class="question">Where are you located?</li>
+                <li class="answer">
+                  We are everywhere you want us to be.
+                </li>
+                <li class="question">What do you suggest for dessert?</li>
+                <li class="answer">YES!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        <!----------------->
-        <div class="col s4">
+        <div class="col s1"></div>
+        <div class="col s4 card-column">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="center-align">About Us</h4>
+            </div>
+          </div>
+
           <div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg" />
-              <span class="card-title">Card Title</span>
+              <img
+                class="emoji"
+                src="stylesheet/img/7343-happy-person-raising-one-hand.png"
+              />
             </div>
             <div class="card-content">
-              <p>
-                This is a blurb for each of us.
+              <h5 class="center-align">Jenny Brooks</h5>
+              <p class="center-align">
+                Rollin’ with the homies.
               </p>
             </div>
-            <div class="card-action"></div>
           </div>
           <div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg" />
-              <span class="card-title">Card Title</span>
+              <img
+                class="emoji"
+                src="stylesheet/img/1200px-Noto_Emoji_KitKat_263a.svg.png"
+              />
             </div>
             <div class="card-content">
-              <p>
-                This is a blurb for each of us.
+              <h5 class="center-align">Penny Arnold</h5>
+              <p class="center-align">
+                Not like the rest of them.
               </p>
             </div>
-            <div class="card-action"></div>
           </div>
           <div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg" />
-              <span class="card-title">Card Title</span>
+              <img class="emoji" src="stylesheet/img/cool.png" />
             </div>
             <div class="card-content">
-              <p>
-                This is a blurb for each of us.
+              <h5 class="center-align">Dan Taquez</h5>
+              <p class="center-align">
+                I regret nothing you see here.
               </p>
             </div>
-            <div class="card-action"></div>
           </div>
           <div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg" />
-              <span class="card-title">Card Title</span>
+              <img
+                class="emoji"
+                src="stylesheet/img/2000px-Emoji_u1f914.svg.png"
+              />
             </div>
             <div class="card-content">
-              <p>
-                This is a blurb for each of us.
+              <h5 class="center-align">Phil Mauracher</h5>
+              <p class="center-align">
+                Life’s short, eat the whole cake!
               </p>
             </div>
-            <div class="card-action"></div>
           </div>
         </div>
       </div>
 
-      <div class="row"></div>
+      <div class="row">
+        <div class="col s7 faq"></div>
+      </div>
     </div>
 
     <footer>FOOTER HERE</footer>
