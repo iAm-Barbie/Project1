@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* thumbnails.recipepage (dan) */
 td {
     width: 110px;
@@ -123,11 +122,8 @@ td {
     background-position: 50% 50%;
 
 }
-=======
-@import "compass/css3";
 
-@import "compass/css3";
-
+/* pennie homepage */
 
 html {
     scroll-behavior: smooth;
@@ -179,4 +175,3 @@ html {
   .material-icons{
       font-size: 70pt;
   }
->>>>>>> master
