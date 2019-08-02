@@ -1,3 +1,129 @@
+<<<<<<< HEAD
+/* thumbnails.recipepage (dan) */
+td {
+    width: 110px;
+    height: 90px;
+}
+
+#Chicken {
+    background-image: url("./img/chicken.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#Steak {
+    background-image: url("./img/Steak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Pork {
+    background-image: url("./img/Pork.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Tofu {
+    background-image: url("./img/tofu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Salmon {
+    background-image: url("./img/salmon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#lettus{
+    background-image: url("./img/let.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Tomatos {
+    background-image: url("./img/tomatos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Carrots {
+    background-image: url("./img/carrots.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Onions {
+    background-image: url("./img/onions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Broc {
+    background-image: url("./img/broccoli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Pasta {
+    background-image: url("./img/pasta.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Potatos {
+    background-image: url("./img/pot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Rice {
+    background-image: url("./img/rice.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Bread {
+    background-image: url("./img/bread.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+#Tortillas {
+    background-image: url("./img/tortillas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+=======
 @import "compass/css3";
 
 @import "compass/css3";
@@ -53,3 +179,4 @@ html {
   .material-icons{
       font-size: 70pt;
   }
+>>>>>>> master
