@@ -18,14 +18,14 @@ $("button").on("click", function() {
     var carbs = response.foods[0].food.nutrients[4].name;
     var carbsVal = response.foods[0].food.nutrients[4].value;
     $(".food").text(foodName);
-    $(".calories").prepend(calories + ": ");
-    $(".calories").append(calVal);
-    $(".protein").append(nutrients + ": ");
-    $(".protein").append(nutVal);
-    $(".fat").append(fat + ": ");
-    $(".fat").append(fatVal);
-    $(".carbs").append(carbs + ": ");
-    $(".carbs").append(carbsVal);
+    $(".calories").text(calories + " "+ calVal);
+  
+    $(".protein").text(nutrients + " "+ nutVal);
+ 
+    $(".fat").text(fat + " " + fatVal);
+  
+    $(".carbs").text(carbs + " "+ carbsVal);
+ 
 
 
 
