@@ -1,5 +1,5 @@
 $("button").on("click", function() {
-  var ndbno = "16427";
+  var ndbno = 15083
   var queryURL = `https://api.nal.usda.gov/ndb/V2/reports?ndbno=${ndbno}&type=b&format=json&api_key=dxYdoXKO6VV76LlruaXcuN0V4grH1rzCoUx8KNR1`;
 
   $.ajax({
@@ -25,6 +25,7 @@ $("button").on("click", function() {
     $(".fat").text(fat + " " + fatVal);
   
     $(".carbs").text(carbs + " "+ carbsVal);
+    
  
 
 
