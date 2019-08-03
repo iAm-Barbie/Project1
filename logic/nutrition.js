@@ -1,5 +1,5 @@
 $("button").on("click", function() {
-  var ndbno = "45217808";
+  var ndbno = "16427";
   var queryURL = `https://api.nal.usda.gov/ndb/V2/reports?ndbno=${ndbno}&type=b&format=json&api_key=dxYdoXKO6VV76LlruaXcuN0V4grH1rzCoUx8KNR1`;
 
   $.ajax({
@@ -11,15 +11,27 @@ $("button").on("click", function() {
     var foodName = response.foods[0].food.desc.name;
     var calories = response.foods[0].food.nutrients[1].unit;
     var calVal = response.foods[0].food.nutrients[1].value;
-    // console.log(response.foods[0].food.nutrients[2].name);
-    // console.log(response.foods[0].food.nutrients[2].value);
-    // console.log(response.foods[0].food.nutrients[3].name);
-    // console.log(response.foods[0].food.nutrients[3].value);
-    // console.log(response.foods[0].food.nutrients[4].name);
-    // console.log(response.foods[0].food.nutrients[4].value);
+    var nutrients = response.foods[0].food.nutrients[2].name;
+    var nutVal = response.foods[0].food.nutrients[2].value;
+    var fat = response.foods[0].food.nutrients[3].name;
+    var fatVal = response.foods[0].food.nutrients[3].value;
+    var carbs = response.foods[0].food.nutrients[4].name;
+    var carbsVal = response.foods[0].food.nutrients[4].value;
     $(".food").text(foodName);
     $(".calories").prepend(calories + ": ");
     $(".calories").append(calVal);
+    $(".protein").append(nutrients + ": ");
+    $(".protein").append(nutVal);
+    $(".fat").append(fat + ": ");
+    $(".fat").append(fatVal);
+    $(".carbs").append(carbs + ": ");
+    $(".carbs").append(carbsVal);
+
+
+
+
+
+
   });
 });
 
