@@ -1,13 +1,13 @@
 $("button").on("click", function() {
-  var ndbno = 15083
+  var ndbno = $(".food").val().trim();
   var queryURL = `https://api.nal.usda.gov/ndb/V2/reports?ndbno=${ndbno}&type=b&format=json&api_key=dxYdoXKO6VV76LlruaXcuN0V4grH1rzCoUx8KNR1`;
 
   $.ajax({
     url: queryURL,
     method: "GET"
   }).then(function(response) {
-    console.log(queryURL);
-    console.log(response);
+    // console.log(queryURL);
+    // console.log(response);
     var foodName = response.foods[0].food.desc.name;
     var calories = response.foods[0].food.nutrients[1].unit;
     var calVal = response.foods[0].food.nutrients[1].value;
