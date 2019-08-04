@@ -1,4 +1,4 @@
-/* Recipe page (dan) */
+
 
 //Contact Us & Firebase (phil)
 var firebaseConfig = {

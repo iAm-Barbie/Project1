@@ -4,6 +4,10 @@ td {
     height: 90px;
 }
 
+.recipe-container {
+    background-color: aliceblue;
+}
+
 #Chicken {
     background-image: url("./img/chicken.jpg");
     background-size: cover;
