@@ -1,14 +1,11 @@
-/* Recipe page (dan) */
-
-//Contact Us & Firebase (phil)
 var firebaseConfig = {
-  apiKey: "AIzaSyBE1zucPwk2uyiahaNg6I94SfjiYj0llEw",
-  authDomain: "class-project-one-8c52c.firebaseapp.com",
-  databaseURL: "https://class-project-one-8c52c.firebaseio.com",
-  projectId: "class-project-one-8c52c",
+  apiKey: "AIzaSyAABvzX_lsC3TyMocWFSwUpHyxdyMjCdv0",
+  authDomain: "couch-to-cook-feedback.firebaseapp.com",
+  databaseURL: "https://couch-to-cook-feedback.firebaseio.com",
+  projectId: "couch-to-cook-feedback",
   storageBucket: "",
-  messagingSenderId: "737235946368",
-  appId: "1:737235946368:web:50bcbe3de0f044da"
+  messagingSenderId: "354357128992",
+  appId: "1:354357128992:web:a08906b00623fd1a"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

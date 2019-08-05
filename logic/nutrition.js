@@ -28,10 +28,10 @@ $("button").on("click", function() {
   });
 });
 
-//TODO: Need to figure out why some foods have the nutrition info in place different than expected.
+//TODO: Which foods need to be mapped a little differently
 
-//TODO: being that there are 3 foods being chosen, we will need to pull those data-attribute (food ids) into an array, loop through those and put the ajax call into the loop.  There will be 3 separate calls to the API but only one function to control the calls.  Might even want to store the responses in 3 variables
+//TODO: Being that there are 3 foods being chosen, we will need to pull those data-attribute (food ids) into an array, loop through those and put the ajax call into the loop.  There will be 3 separate calls to the API but only one function to control the calls.
 
-//NOTE: will need to change the value of the ndbno binding to .attr data-attribute of the id/class once we have those in place
+//NOTE: Will need to change the value of the ndbno binding to .attr data-attribute of the id/class once we have those in place
 
-//NOTE: we might just want to pull our own names instead of USDA food names.  Base them either off the class/ID or a data-attribute
+//NOTE: We might just want to pull our own names instead of USDA food names.  Base them either off the class/ID or a data-attribute

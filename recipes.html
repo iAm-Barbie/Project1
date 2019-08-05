@@ -8,7 +8,7 @@
     
     <title>Recipe</title>
 </head>
-
+​
 <body>
   <div class="container">
     <!-- Page Content goes here -->
@@ -39,10 +39,10 @@
                 
                 <tbody class="foods">
                     <tr>
-                    <td id="Chicken">Chicken</td>
+                    <td id="Chicken" data-id="05332">Chicken</td>
                     <td id="Lettus">Lettus</td>
                     <td id="Pasta">Pasta</td>
-
+​
                     </tr>
                     <tr>
                     <td id="Steak">Steak</td>
@@ -62,32 +62,83 @@
                     <td id="broc">broc</td>
                     <td id="Tortillas">Tortillas</td>
                 </tbody>
-
+​
                 <br>
-
+​
             </table>
         </div>
     </body>
-
-     <br>
-
-    <table class="striped">
-            
+​
+    <br>
+    <br>
+​
+    <table class="choices">
+​
         <tbody>
-          <tr class="results">
-            <td>Results</td>
-            <td>Results</td>
-            <td>Results</td>
+          <tr>
+            <td class="c1">Placeholder</td>
+            <td class="c2">Placeholder</td>
+            <td class="c3">Placeholder</td>
           </tr>
         </tbody>
-      </table> 
+      </table>
+​
+      <button type="button">Click Me!</button>
+​
+​
+     <br>
+     <br>
+​
+     <aside class="nutrition_table">
+       <header class="Heading">
+         <p>Nutriton table</p>
+       </header>
+​
+       <table style="width:100%">
+        <tr>
+          <th>Ingredients</th>
+          <th>USDA</th>
+        </tr>
+        <tr>
+          <td id="food">Food</td>
+          <td id="usda">facts</td>
+        </tr>
+        <tr>
+          <td>Food</td>
+          <td>facts</td>
+        </tr>
+      </table>
+     </aside>
+​
+     <br>
+​
+      <aside class="videos">
+         <header>
+           <p>Results</p>
+         </header>
+        <table>
+            <tbody>
+              <tr class="results">
+                <td>video</td>
+                <td>video</td>
+                <td>video</td>
+              </tr>
+              <tr class="results">
+                  <td>video</td>
+                  <td>video</td>
+                  <td>video</td>
+                </tr>
+            </tbody>
+        </table> 
       <div id="video"></div>
-
+    </aside>
+​
   </div>
-
+​
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="logic/recipes.js" ></script>
+  <script src="logic/recipes.js"></script>
+  <script src="logic/nutrition.js"></script>
 </body>
-
+​
 <footer> Placeholder</footer>
 </html>
