@@ -4,7 +4,7 @@ This is app will allow the user to pick 3 ingredients, then receive the nutritio
 
 ## Getting Started
 
-Navigate to https://barbiedollxo.github.io/Project1/contactUs.html
+Navigate to https://barbiedollxo.github.io/Project1/index.html
 
 ### Instructions
 
