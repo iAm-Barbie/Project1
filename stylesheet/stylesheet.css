@@ -1,8 +1,24 @@
 /* thumbnails.recipepage (dan) */
+html {
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
 td {
   width: 110px;
   height: 90px;
 }
+
+.choices{
+font-size: 18pt;
+}
+
+.foods{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 16pt;
+}
+
 #Chicken {
   background-image: url("./img/chicken.jpg");
   background-size: cover;
@@ -101,8 +117,10 @@ td {
   float: right;
 }
 /* pennie homepage */
+
 html {
   scroll-behavior: smooth;
+
 }
 .main-container {
   background: url("bkg-2.jpg") no-repeat center center fixed;
