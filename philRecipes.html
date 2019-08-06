@@ -1,0 +1,144 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <title>Recipes</title>
+  </head>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="logic/recipes.js"></script>
+  <script src="logic/nutrition.js"></script>
+
+  <body>
+    <div class="container">
+      <!-- Page Content goes here -->
+      <body class="recipe-container">
+              <nav>
+                      <div class="nav-wrapper">
+                        <a href="#" class="brand-logo"><i class="material-icons">local_dining</i>Couch to Cook</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <ul id="dropdown2" class="dropdown-content">
+                                <li><a href="#!">Spanish<span class="badge">1</span></a></li>
+                                <li><a href="#!">Italian<span class="new badge">1</span></a></li>
+                                <li><a href="#!">German</a></li>
+                      </div>
+                    </nav>
+          <header>
+              <h1>Choose Your Ingredients</h1>
+          </header>
+          
+          <div class="table">
+              <table>
+                  <thead>
+                      <tr class="Choices">
+                      <th>Protiens</th>
+                      <th>Vegies</th>
+                      <th>Carbs</th>
+                      </tr>
+                  </thead>
+                  
+                  <tbody>
+                      <tr>
+                      <td id="Chicken" data-id="05332">Chicken</td>
+                      <td class= "food" id="corn" data-id="20014">Corn</td>
+  ​
+                      </tr>
+                      <tr>
+                      <td class= "food" id="Tomatos" data-id="11529">Tomatos</td>
+                      <td class= "food" id="Potatos" data-id="11352">Potatos</td>
+                      </tr>
+                      <tr>
+                      <td class= "food" id="Pork" data-id="10006">Pork</td>
+                      <td class= "food" id="Carrots" data-id="11124">Carrots</td>
+                      <td class= "food" id="Rice" data-id="20052">Rice</td>
+                      </tr>
+                      <td class= "food" id="Tofu" data-id="16427">Tofu</td>
+                      <td class= "food" id="Onions" data-id="11282">Onions</td>
+                      <td class= "food" id="Bread" data-id="18069">Bread</td>
+                      </tr>
+                      <td class= "food" id="Salmon" data-id="15083">Salmon</td>
+                      <td class= "food" id="broc" data-id="11090">broc</td>
+                      <td class= "food" id="Tortillas" data-id="">Tortillas</td>
+                  </tbody>
+  ​
+                  <br>
+  ​
+              </table>
+          </div>
+      </body>
+  ​
+      <br>
+      <br>
+  ​
+      <table class="choices">
+  ​
+          <tbody>
+            <tr>
+              <td class="c1">Placeholder</td>
+              <td class="c2">Placeholder</td>
+              <td class="c3">Placeholder</td>
+            </tr>
+          </tbody>
+        </table>
+  ​
+       <a class="waves-effect waves-light btn-large">Button</a>
+  ​
+  ​
+       <br>
+       <br>
+  ​
+
+  
+       <aside class="nutrition_table">
+         <header class="Heading">
+           <p>Nutriton table</p>
+         </header>
+  ​
+         <table style="width:100%">
+          <tr>
+            <th>Ingredients</th>
+            <th>USDA</th>
+          </tr>
+          <tr>
+            <td id="food">Food</td>
+            <td id="usda">facts</td>
+          </tr>
+          <tr>
+            <td>Food</td>
+            <td>facts</td>
+          </tr>
+        </table>
+       </aside>
+  ​
+       <br>
+  ​
+        <aside class="videos">
+           <header>
+             <p>Results</p>
+           </header>
+          <table>
+              <tbody>
+                <tr class="results">
+                  <td>video</td>
+                  <td>video</td>
+                  <td>video</td>
+                </tr>
+                <tr class="results">
+                    <td>video</td>
+                    <td>video</td>
+                    <td>video</td>
+                  </tr>
+              </tbody>
+          </table> 
+        <div id="video"></div>
+      </aside>
+  ​
+    </div>
+  </body>
+  ​
+  <footer> Placeholder</footer>
+  </html>

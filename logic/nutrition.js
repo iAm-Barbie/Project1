@@ -1,5 +1,6 @@
 $("button").on("click", function() {
-  var ndbno = $("#txt_name").val(); //this pulls info from the input
+  //var ndbno = $("#txt_name").val();
+  var foodIdArray = [];
 
   //this is the endpoint
   var queryURL = `https://api.nal.usda.gov/ndb/V2/reports?ndbno=${ndbno}&type=b&format=json&api_key=dxYdoXKO6VV76LlruaXcuN0V4grH1rzCoUx8KNR1`;
@@ -28,10 +29,11 @@ $("button").on("click", function() {
   });
 });
 
-//TODO: Which foods need to be mapped a little differently
+//TODO: Need an array to contain the data-id attributes.
 
-//TODO: Being that there are 3 foods being chosen, we will need to pull those data-attribute (food ids) into an array, loop through those and put the ajax call into the loop.  There will be 3 separate calls to the API but only one function to control the calls.
+//TODO: onClick needs to figure out which one was clicked by data-id, push the data-id to the array, loop through the array to change the foodid and make 3 api calls.
 
-//NOTE: Will need to change the value of the ndbno binding to .attr data-attribute of the id/class once we have those in place
+//TODO: in the ajax promise populate dynamic divs.  name, calories, protein, carbs, fat and the respective values.
 
-//NOTE: We might just want to pull our own names instead of USDA food names.  Base them either off the class/ID or a data-attribute
+//TODO: empty the contents upon click
+//TODO: prevent default
