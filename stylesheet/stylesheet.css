@@ -11,6 +11,8 @@ td {
 
 .choices{
 font-size: 18pt;
+width: 350px;
+height: 90px;
 }
 
 .foods{
@@ -131,7 +133,7 @@ html {
 }
 .display-3 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 77pt;
+  font-size: 82pt;
   text-align: center;
 }
 .steps {
@@ -159,4 +161,8 @@ html {
 }
 .material-icons {
   font-size: 70pt;
+}
+
+#card1{
+    color: darkorange;
 }

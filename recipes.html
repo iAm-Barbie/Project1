@@ -9,10 +9,6 @@
     <title>Recipes</title>
   </head>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="logic/recipes.js"></script>
-  <script src="logic/nutrition.js"></script>
-
   <body>
     <div class="container">
       <!-- Page Content goes here -->
@@ -48,21 +44,21 @@
   ​
                       </tr>
                       <tr>
-                      <td class= "food" id="Tomatos" data-id="11529">Tomatos</td>
-                      <td class= "food" id="Potatos" data-id="11352">Potatos</td>
+                      <td class= "food" id="Tomatos" data-search="tomatos" data-id="11529">Tomatos</td>
+                      <td class= "food" id="Potatos" data-search="potatos"data-id="11352">Potatos</td>
                       </tr>
                       <tr>
-                      <td class= "food" id="Pork" data-id="10006">Pork</td>
-                      <td class= "food" id="Carrots" data-id="11124">Carrots</td>
+                      <td class= "food" id="Pork" data-search="pork" data-id="10006">Pork</td>
+                      <td class= "food" id="Carrots" data-search="pork" data-id="11124">Carrots</td>
                       <td class= "food" id="Rice" data-id="20052">Rice</td>
                       </tr>
-                      <td class= "food" id="Tofu" data-id="16427">Tofu</td>
-                      <td class= "food" id="Onions" data-id="11282">Onions</td>
-                      <td class= "food" id="Bread" data-id="18069">Bread</td>
+                      <td class= "food" id="Tofu" data-search="tofu" data-id="16427">Tofu</td>
+                      <td class= "food" id="Onions" data-search="onion" data-id="11282">Onions</td>
+                      <td class= "food" id="Bread" data-search="bread" data-id="18069">Bread</td>
                       </tr>
-                      <td class= "food" id="Salmon" data-id="15083">Salmon</td>
-                      <td class= "food" id="broc" data-id="11090">broc</td>
-                      <td class= "food" id="Tortillas" data-id="">Tortillas</td>
+                      <td class= "food" id="Salmon" data-search="salmon" data-id="15083">Salmon</td>
+                      <td class= "food" id="broc" data-search="broccoli" data-id="11090">broc</td>
+                      <td class= "food" id="Tortillas" data-search="tortillas" data-id="">Tortillas</td>
                   </tbody>
   ​
                   <br>
@@ -78,20 +74,19 @@
   ​
           <tbody>
             <tr>
-              <td class="c1">Placeholder</td>
-              <td class="c2">Placeholder</td>
-              <td class="c3">Placeholder</td>
+              <td class="c1"></td>
             </tr>
           </tbody>
         </table>
-  ​
-       <a class="waves-effect waves-light btn-large">Button</a>
+  ​<br>
+       <a class="waves-effect waves-light btn-large" id="search-button">Search Recipes</a>
+       <a class="waves-effect waves-light btn-large" id="clear-button">Clear Search</a>
   ​
   ​
        <br>
        <br>
   ​
-       <aside class="nutrition_table">
+       <div class="nutrition_table">
          <header class="Heading">
            <p>Nutriton table</p>
          </header>
@@ -110,33 +105,31 @@
             <td>facts</td>
           </tr>
         </table>
-       </aside>
+      </div>
   ​
        <br>
   ​
-        <aside class="videos">
+        <div class="videos">
            <header>
              <p>Results</p>
            </header>
           <table>
               <tbody>
                 <tr class="results">
-                  <td>video</td>
-                  <td>video</td>
-                  <td>video</td>
+                  <td></td>
                 </tr>
-                <tr class="results">
-                    <td>video</td>
-                    <td>video</td>
-                    <td>video</td>
-                  </tr>
               </tbody>
           </table> 
         <div id="video"></div>
-      </aside>
-  ​
+        </div>
     </div>
+
+   
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="logic/recipes.js"></script>
+  <script src="logic/nutrition.js"></script>
+
   </body>
-  ​
-  <footer> Placeholder</footer>
+  <footer></footer>
   </html>
