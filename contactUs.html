@@ -37,34 +37,39 @@
           <form>
             <div class="row">
               <div class="input-field">
-                <input id="name" type="text" class="validate" />
+                <input id="name" type="text" class="validate" required />
                 <label for="name">Name</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field">
-                <input id="email" type="email" class="validate" />
+                <input id="email" type="email" class="validate" required />
                 <label for="email">Email</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field">
-                <textarea id="feedback" class="materialize-textarea"></textarea>
+                <textarea
+                  id="feedback"
+                  class="materialize-textarea"
+                  required
+                ></textarea>
                 <label for="feedback">Feedback</label>
               </div>
             </div>
-
-            <button
-              class="btn waves-effect waves-light"
-              id="submitBtn"
-              type="submit"
-              name="action"
-            >
-              Submit
-              <i class="material-icons right">send</i>
-            </button>
+            <div class="row">
+              <button
+                class="btn waves-effect waves-light submit-btn"
+                id="submitBtn"
+                type="submit"
+                name="action"
+              >
+                Submit&nbsp;&nbsp;
+                <i class="material-icons left send" id="airplane">send</i>
+              </button>
+            </div>
           </form>
           <div class="card faq">
             <div class="card-content">
@@ -201,15 +206,7 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="logic/lib/anime.min.js"></script>
     <script src="logic/contact.js"></script>
   </body>
 </html>
-
-<!--TODO:
-
-1: What temperature should my chicken be cooked to?  
-2: I'm a vegetarian do you have any options for me?     
-3: Do you have any gluten-free options?  
-4:  
-
--->
