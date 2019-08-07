@@ -111,6 +111,20 @@ height: 90px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
+#corn {
+  background-image: url("./img/corn.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#cheese {
+  background-image: url("./img/cheese.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 /* Daniels Recipe page */
 .nutrition_table {
   float: left;
