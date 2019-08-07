@@ -1,8 +1,5 @@
-var foodArray = [];
-
 //this will pull the data-attributes of each food chosen
-$("#search-button").on("click", function() {
-  //TODO: loop however many times there are members of the array
+$(".food").on("click", function() {
   var ndbno = $(this).attr("data-id");
   var foodType = $(this).attr("id");
 
