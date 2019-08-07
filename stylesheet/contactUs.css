@@ -1,4 +1,4 @@
-/***  TO BE MERGED INTO stylesheet.css  ***/
+/* contact styles  */
 form {
   padding-left: 1em;
 }
@@ -16,6 +16,7 @@ form {
   height: 33%;
   margin: auto;
   padding-top: 1em;
+  background-color: darkslateblue;
 }
 
 .faq {
@@ -35,4 +36,11 @@ button {
   width: 20rem;
   line-height: 2;
   background-color: #9ccc65 !important;
+  font-size: 12pt !important;
+  color: black !important;
+}
+
+.card{
+  background-color: rgb(243, 235, 225);
+
 }

@@ -1,4 +1,4 @@
-/* thumbnails.recipepage (dan) */
+/* thumbnails.recipepage  */
 html {
     scroll-behavior: smooth;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -10,13 +10,15 @@ td {
   text-align: center;
   color:black;
   font-weight: bolder;
+  font-size: 23pt;
 }
 
 .choices{
-font-size: 18pt;
+font-size: 20pt;
 width: 350px;
 height: 90px;
 text-align: center;
+font-style: oblique;
 }
 
 #Chicken {
@@ -121,7 +123,8 @@ text-align: center;
   background-position: 50% 50%;
 }
 
-/* pennie homepage */
+
+/* index.html */
 
 html {
   scroll-behavior: smooth;
@@ -130,6 +133,7 @@ html {
 .main-container {
   background: url("bkg-2.jpg") no-repeat center center fixed;
   background-size: cover;
+  
 }
 .nav-wrapper {
   background-color: darkorange;
@@ -138,6 +142,7 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 82pt;
   text-align: center;
+  color: crimson;
 }
 .steps {
   font-size: 20pt;
@@ -165,4 +170,15 @@ html {
 
 .material-icons {
   font-size: 70pt;
+}
+
+footer{
+  background-color: rgb(245, 222, 21);
+  text-align: center;
+  font-style: italic;
+  font-size: 30pt;
+
+}
+.head{
+  color: crimson;
 }
