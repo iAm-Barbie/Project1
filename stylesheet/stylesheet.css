@@ -135,15 +135,12 @@ height: 90px;
 }
 /* Daniels Recipe page */
 .nutrition_table {
-  float: left;
 }
 .videos {
-  float: right;
+
 }
 
 #but{
-  margin-top: 300px;
-  float: left;
 
 }
 /* pennie homepage */
@@ -193,7 +190,6 @@ height:800px;
 
 #section5 {
 height: 300px;
-align-self: center;
 }
 .material-icons {
   font-size: 70pt;
