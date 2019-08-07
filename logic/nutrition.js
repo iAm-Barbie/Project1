@@ -1,6 +1,11 @@
-$(".food").on("click", function() {
+var foodArray = [];
+
+//this will pull the data-attributes of each food chosen
+$("#search-button").on("click", function() {
+  //TODO: loop however many times there are members of the array
   var ndbno = $(this).attr("data-id");
   var foodType = $(this).attr("id");
+
   //this is the endpoint
   var queryURL = `https://api.nal.usda.gov/ndb/V2/reports?ndbno=${ndbno}&type=b&format=json&api_key=dxYdoXKO6VV76LlruaXcuN0V4grH1rzCoUx8KNR1`;
 
@@ -33,3 +38,12 @@ $(".food").on("click", function() {
     );
   });
 });
+
+//
+//this is to clear any results that are pulling from USDA
+$("#clear-button").on("click", function() {
+  $("#usdaInfo").empty();
+});
+
+//TODO: need to push the data attributes to the array
+//TODO: need to loop 3 times and call the API 3 times
