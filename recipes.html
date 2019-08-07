@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="stylesheet/stylesheet.css">
     <title>Recipes</title>
   </head>
-
   <body>
     <div class="container">
       <!-- Page Content goes here -->
@@ -39,10 +38,9 @@
                   
                   <tbody>
                       <tr>
-                      <td id="Chicken" data-search="Chicken" data-id="05332">Chicken</td>
-                      <td class= "food" id="corn" data-search="corn" data-id="20014">Corn</td>
+                      <td id="Chicken" data-id="05332">Chicken</td>
+                      <td class= "food" id="corn" data-id="20014">Corn</td>
                       <td class= "food" id="cheese" data-search=" cheddar-cheese" data-id="01168">Chedder Cheese</td>
-  ​
                       </tr>
                       <tr>
                       <td class= "food" id="Tomatos" data-search="tomatos" data-id="11529">Tomatos</td>
@@ -62,18 +60,18 @@
                       <td class= "food" id="broc" data-search="broccoli" data-id="11090">broc</td>
                       <td class= "food" id="Tortillas" data-search="tortillas" data-id="">Tortillas</td>
                   </tbody>
-  ​
+  
                   <br>
-  ​
+  
               </table>
           </div>
       </body>
-  ​
+  
       <br>
       <br>
-  ​
+  
       <table class="choices">
-  ​
+  
           <tbody>
             <tr>
               <td class="c1"></td>
@@ -83,61 +81,53 @@
   ​<br>
        <a class="waves-effect waves-light btn-large" id="search-button">Search Recipes</a>
        <a class="waves-effect waves-light btn-large" id="clear-button">Clear Search</a>
-  ​
-  ​
+  
+  
        <br>
        <br>
-<container id="section4">
-       <div class="nutrition_table">
-         <header class="Heading">
-           <p>Nutriton table</p>
-         </header>
-  ​
-         <table style="width:100%">
-          <tr>
-            <th>Ingredients</th>
-            <th>USDA</th>
-          </tr>
-          <tr>
-            <td id="food">Food</td>
-            <td id="usda">facts</td>
-          </tr>
-          <tr>
-            <td>Food</td>
-            <td>facts</td>
-          </tr>
-        </table>
+  
+  <container>
+      <div class="row">
+          <div class="col s4">
+              <div class="nutrition_table">
+                  <header class="Heading">
+                    <p>Nutriton Facts from USDA.org</p>
+                  </header>
+           
+                  <table id="usdaInfo"style="width:100%">
+                   <tr>
+                     <th class="usdaHeading">Ingredients</th>
+                     <th class="usdaHeading">Nutrition</th>
+                   </tr>
+                 </table>
+               </div>
+          </div>
+          <div class="col s1"></div>
+          <div class="col s7">
+              <div class="videos">
+                  <header>
+                    <p>Results</p>
+                  </header>
+                 <table>
+                     <tbody>
+                       <tr class="results">
+                         <td></td>
+                       </tr>
+                     </tbody>
+                 </table> 
+               <div id="video"></div>
+               </div>
+          </div>
       </div>
-  ​
-       <br>
-  ​
-        <div class="videos">
-           <header>
-             <p>Results</p>
-           </header>
-          <table>
-              <tbody>
-                <tr class="results">
-                  <td></td>
-                </tr>
-              </tbody>
-          </table> 
-        <div id="video"></div>
-        </div>
-    </div>
-
-  </container>
-
-    <br>
-
-    <container id="section5">
-    <a id="but" href="contactUs.html" class="waves-effect waves-light btn-large #9ccc65 light-green lighten-1"><i class="material-icons right">arrow_forward</i>Questions</a>
     </container>
+    <container>
+        <a href="contactUs.html" class="waves-effect waves-light btn-large" id="clear-button">Recipe Complete!</a>
+    </container>
+    </div>
    
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="logic/recipes.js"></script>
   <script src="logic/nutrition.js"></script>
-
   </body>
+  <footer></footer>
   </html>
