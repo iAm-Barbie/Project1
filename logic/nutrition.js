@@ -21,6 +21,9 @@ $(".food").on("click", function() {
 
     //
     //appends the values to the usdaInfo table
+
+    $("#usdaInfo").append(`<th class="usdaHeading">Ingredients</th>
+    <th class="usdaHeading">Nutrition</th>`);
     $("#usdaInfo").append(
       `<tr class="usdaFood"><td rowspan="2">${foodType}</td><tr>`
     );
