@@ -1,6 +1,6 @@
 # Couch to Cook
 
-This is app will allow the user to pick 3 ingredients, then receive the nutrition information and video recipes from YouTube using those ingredients.
+This is app will allow the user to pick ingredients, then receive the nutrition information from the USDA and video recipes from YouTube using those ingredients.
 
 ## Getting Started
 
@@ -22,11 +22,12 @@ Navigate to https://barbiedollxo.github.io/Project1/index.html
 - YouTube API
 - USDA API
 - Materialize
+- Anime.js
 - Git & GitHub
 
 ## Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via email
+When contributing to this repository, please first discuss the change you wish to make via email.
 
 ## Code of Conduct
 
@@ -96,14 +97,13 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 ## Authors
 
-**Jenny Brooks** - [Github](https://github.com/BarbieDoLLxo)
-**Penelope Arnold** - [Github](https://github.com/Penelope-Arnold)
-**Daniel Taquez** - [Github](https://github.com/danieltaquez)
+**Jenny Brooks** - [Github](https://github.com/BarbieDoLLxo) |
+**Penelope Arnold** - [Github](https://github.com/Penelope-Arnold) |
+**Daniel Taquez** - [Github](https://github.com/danieltaquez) |
 **Phillip Mauracher** - [Github](https://github.com/gradientus)
 
 ## Acknowledgments
 
 - YouTube, USDA
 - Couch to Cook team
-- Ben and the TAs
 - lazy cooks cooking good food
