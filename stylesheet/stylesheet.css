@@ -5,21 +5,18 @@ html {
   }
 
 td {
-  width: 110px;
   height: 90px;
   border-color: white;
+  text-align: center;
+  color:black;
+  font-weight: bolder;
 }
 
 .choices{
 font-size: 18pt;
 width: 350px;
 height: 90px;
-}
-
-.foods{
-    text-align: center;
-    color: antiquewhite;
-    font-size: 16pt;
+text-align: center;
 }
 
 #Chicken {
@@ -52,13 +49,8 @@ height: 90px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-#lettus {
-  background-image: url("./img/let.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-#Tomatos {
+
+#Tomatoes {
   background-image: url("./img/tomatos.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,19 +68,14 @@ height: 90px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-#Broc {
+#Broccoli {
   background-image: url("./img/broccoli.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-#Pasta {
-  background-image: url("./img/pasta.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-}
-#Potatos {
+
+#Potatoes {
   background-image: url("./img/pot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,36 +100,27 @@ height: 90px;
   background-position: 50% 50%;
 }
 
-#corn {
+#Corn {
   background-image: url("./img/corn.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-#cheese {
+#Cheese {
   background-image: url("./img/cheese.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
-#beans {
+#Beans {
   background-image: url("./img/beans.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* Daniels Recipe page */
-.nutrition_table {
-}
-.videos {
 
-}
-
-#but{
-
-}
 /* pennie homepage */
 
 html {
@@ -184,17 +162,7 @@ html {
   font-size: 24pt;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-#section4 {
-height:800px;
-}
 
-#section5 {
-height: 300px;
-}
 .material-icons {
   font-size: 70pt;
-}
-
-#card1{
-    color: darkorange;
 }
