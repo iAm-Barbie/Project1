@@ -9,16 +9,13 @@ $(".food").on("click", function() {
     url: queryURL,
     method: "GET"
   }).then(function(response) {
-    // var foodName = response.foods[0].food.desc.name; //NOTE: might want to replace
-    // var calories = response.foods[0].food.nutrients[1].unit; //NOTE: might want to replace
+    //assigns the values from the JSON
     var calVal = response.foods[0].food.nutrients[1].value;
-    // var nutrients = response.foods[0].food.nutrients[2].name; //NOTE: might want to replace
     var nutVal = response.foods[0].food.nutrients[2].value;
-    // var fat = response.foods[0].food.nutrients[3].name; //NOTE: might want to replace
     var fatVal = response.foods[0].food.nutrients[3].value;
-    // var carbs = response.foods[0].food.nutrients[4].name;
     var carbsVal = response.foods[0].food.nutrients[4].value;
 
+    //appends the values to the usdaInfo table
     $("#usdaInfo").append(
       `<tr class="usdaFood"><td rowspan="2">${foodType}</td><tr>`
     );
@@ -36,12 +33,3 @@ $(".food").on("click", function() {
     );
   });
 });
-
-//TODO: Need an array to contain the data-id attributes.
-
-//TODO: onClick needs to figure out which one was clicked by data-id, push the data-id to the array, loop through the array to change the foodid and make 3 api calls.
-
-//TODO: in the ajax promise populate dynamic divs.  name, calories, protein, carbs, fat and the respective values.
-
-//TODO: empty the contents upon click
-//TODO: prevent default

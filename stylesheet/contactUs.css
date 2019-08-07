@@ -30,3 +30,8 @@ form {
 .answer {
   font-style: italic;
 }
+
+button {
+  width: 20rem;
+  line-height: 2;
+}

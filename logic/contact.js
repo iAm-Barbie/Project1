@@ -38,6 +38,13 @@ $("#submitBtn").on("click", function() {
   //push to the Firebase database
   database.ref().push(feedbackObject);
 
+  //need to figure this out as a bonus, how do I keep the airplane on top????
+  anime({
+    targets: ".send",
+    translateX: 500,
+    duration: 4000
+  });
+
   //to clear values
   clearValues();
 });
